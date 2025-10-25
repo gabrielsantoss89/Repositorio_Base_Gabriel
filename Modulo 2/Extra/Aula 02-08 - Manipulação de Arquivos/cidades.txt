@@ -1,0 +1,16 @@
+SP; Barueri; R$ 5.800,00
+MG; Belo Horizonte; R$ 4.500,00
+RJ; Rio de Janeiro; R$ 5.800,00
+BA; Salvador; R$ 15.500,00
+SP; Osasco R$ 3.500,00
+SP; Itapevi R$ 100.000,00
+BA; Xique-Xique R$ 2.000,00
+SP; Santana de Parnaíba R$ 15.900,00
+PI; Teresina R$ 7.500,00
+DF; Brasilia R$ 80.500,00
+SP; Osasco R$ 3.500,00
+SP; Itapevi R$ 100.000,00
+BA; Xique-Xique R$ 2.000,00
+SP; Santana de Parnaíba R$ 15.900,00
+PI; Teresina R$ 7.500,00
+DF; Brasilia R$ 80.500,00
