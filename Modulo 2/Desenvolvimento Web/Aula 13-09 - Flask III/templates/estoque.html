@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">]
+    <meta name="Author" content="Gabriel dos Santos Silva">]
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+    <title>Projeto Flask - Estoque</title>
+</head>
+<body>
+    <header>
+        <h1>Bem vindos ao nosso estoque</h1>
+
+    </header>
+
+<h1>Aqui estão as nossas melhores opções de roupas</h1>
+    <main>
+        <menu>
+        
+            <a href="{{ url_for('index') }}">PÁGINA INICIAL</a>
+
+
+        </menu>
+
+        <table>
+            <tr>
+                <td>Moletom Nike</td>
+                <td>Air max DN</td>
+            </tr>
+            <tr>
+                <td><img src="{{ url_for('static', filename='img/moletom.jpg') }}" width="350px" height="300px"></td>
+                <td><img src="{{ url_for('static', filename='img/dn.jpeg') }}" width="350px" height="300px"></td>
+            </tr>
+
+
+            <tr>
+                <td>Airmax TN</td>
+                <td>Calça Preta</td>
+
+            </tr>
+            <tr>
+                <td><img src="{{ url_for('static', filename='img/tn.jpeg') }}" width="350px" height="450px"></td>
+                <td><img src="{{ url_for('static', filename='img/calça.png') }}" width="350px" height="450px"></td>
+            
+            </tr>
+
+        </table>
+
+        
+
+
+
+
+
+
+    </main>
+
+
+    <footer>
+        <p>Desenvolvido por <strong>Gabriel dos Santos Silva</strong></p>
+        <img src="{{ url_for('static',filename='logo.png') }}" width="150px" height="155px">
+
+    </footer>
+</body>
+</html>
